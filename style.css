@@ -1,5 +1,5 @@
 .main{
-    width: 1260px;
+    width: 940px;
     height:960px;
     margin-left:160px;
     margin-right:160px;
@@ -17,7 +17,7 @@ body{
 
 top{
     overflow:hidden;
-    width:940px;
+    width:900px;
 }
 
 .header-R{
@@ -32,11 +32,13 @@ h1{
 
 ul{
     list-style-type: none;
-    padding-right:247px;
+    padding-right:285px;
     float:left;
     background-color:#778A50;
     font-family:"Arial Black";
     font-weight:normal;
+    margin:0;
+    padding-left:0px;
 }
 
 li{
@@ -59,17 +61,17 @@ li{
 }
 
 .veg{
-    float:left;
     margin:auto;
 }
 
-.contact{
+.contact p{
     font-family:"Arial";
     font-size:12px;
     line-height:1.33;
     color:#7D7D7D;
     float:left;
     margin:auto;
+    align-content: match-parent;
 }
 
 .title{
@@ -99,16 +101,21 @@ hr{
     float:right;
 }
 
+aside{
+    display:block;
+}
+
 .box{
     border-radius: 3px;
     color:#778A50;
 }
 
 button{
-    border:1px;
+    border:2px;
     border-radius:3px;
     color:#778A50;
     background-color:#EDF2C5;
+    border-color:#778A50;
     font-family:"Arial Black";
     font-size:14pt;
     padding-left:10px;
